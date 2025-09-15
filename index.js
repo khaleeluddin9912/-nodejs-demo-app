@@ -5,6 +5,5 @@ app.get('/', (req, res) => {
   res.send('Hello This is updated CI/CD Pipeline!');
 });
 app.listen(port, () => {
-  console.log(`App listening at http://localhost:${port}`);
-  
+  console.log(`App listening at http://localhost:${port}`); 
 });
